@@ -10,7 +10,7 @@ function Type() {
               'MERN Stack Developer',
               'ReactJS Developer',
               'NodeJS Developer',
-              'NextJS Developer',
+              'NextJS Developer'
             ],
             autoStart: true,
             loop: true,

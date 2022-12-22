@@ -1,41 +1,45 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import { CgCPlusPlus } from 'react-icons/cg'
-import { DiGit, DiJavascript1, DiMongodb, DiNodejs, DiPython, DiReact } from 'react-icons/di'
-import { SiFirebase, SiNextdotjs, SiPytorch } from 'react-icons/si'
+import { VscJson } from 'react-icons/vsc'
+import { TbApi, TbInfinity } from 'react-icons/tb'
+import { DiGit, DiNpm } from 'react-icons/di'
+import { SiAmazonaws, SiDocker, SiHeroku, SiVercel } from 'react-icons/si'
+import Checkmark from './checkmark'
 
 function Techstack() {
   return (
       <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <CgCPlusPlus/>
+        <Col xs={4} md={2} className="tech-icons position-relative">
+          <Checkmark/>
+          <DiNpm/>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiJavascript1/>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiNodejs/>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiReact/>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiMongodb/>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiNextdotjs/>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={2} className="tech-icons position-relative">
+          <Checkmark/>
           <DiGit/>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <SiFirebase/>
+          <SiDocker/>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons position-relative">
+          <Checkmark/>
+          <TbApi/>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons position-relative">
+          <Checkmark/>
+          <VscJson/>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <DiPython/>
+          <SiAmazonaws/>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons position-relative">
+          <Checkmark/>
+          <SiVercel/>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <SiPytorch/>
+          <SiHeroku/>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <TbInfinity/>
         </Col>
       </Row>
   )
