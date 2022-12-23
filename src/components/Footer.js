@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { SiUpwork,SiMedium ,SiGmail} from 'react-icons/si'
+import { SiGmail, SiMedium, SiUpwork } from 'react-icons/si'
 
 function Footer() {
   const date = new Date()

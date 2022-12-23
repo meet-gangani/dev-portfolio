@@ -4,7 +4,7 @@ import ProfileImg from '../../Assets/meet-logo.png'
 import Tilt from 'react-parallax-tilt'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { SiUpwork, SiMedium, SiGmail } from 'react-icons/si'
+import { SiGmail, SiMedium, SiUpwork } from 'react-icons/si'
 
 function Home2() {
   return (
