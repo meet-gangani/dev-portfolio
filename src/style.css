@@ -564,6 +564,7 @@ button:focus {
 }
 
 .tech-icons {
+  cursor: pointer;
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
